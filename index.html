@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Material suplementario – Póster científico</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #1f2933;
+  background: #f3f6f5;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0F766E, #5FB3A2);
+  color: white;
+  padding: 4rem 1rem 3rem;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 0.8rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+.meta {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.meta .authors {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+nav {
+  background: white;
+  padding: 0.9rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0F766E;
+}
+
+.menu-links {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+  .menu-links {
+    display: none;
+    margin-top: 0.8rem;
+  }
+  .menu-links a {
+    display: block;
+    margin: 0.6rem 0;
+  }
+  .menu-links.open {
+    display: block;
+  }
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #0F766E;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 1000px;
+  margin: 2.5rem auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+section.highlight {
+  border-left: 6px solid #0F766E;
+}
+
+h2 {
+  color: #0F766E;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  background: #0F766E;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #0A5F59;
+}
+
+.figure {
+  margin-top: 2rem;
+}
+
+.figure img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.figure .credit {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+}
+
+footer {
+  background: #e8efec;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+  }
+  section {
+    margin: 1.5rem 1rem;
+    padding: 1.8rem;
+  }
+}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Intervenciones enfermeras de cuidado ocular en Cuidados Intensivos: revisión de revisiones (Umbrella Review)</h1>
+    <p class="meta"><span class="authors">Juan Gabriel Pérez González · Francisco Javier Vega Vázquez</span><br><span style="font-size:0.9em; opacity:0.9;">Unidad de Cuidados Intensivos, Hospital Universitario Virgen Macarena (Sevilla)</span><br>LI Congreso Nacional de la SEEIUC, 2026</p>
+  </div>
+</header>
+
+<nav>
+  <button class="menu-toggle" aria-label="Abrir menú">☰ Menú</button>
+  <div class="menu-links">
+    <a href="#poster">Póster</a>
+    <a href="#material">Material adicional</a>
+    <a href="#bibliografia">Bibliografía</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</nav>
+
+<section id="poster" class="highlight">
+  <h2>Póster</h2>
+  <p>Accede al póster completo presentado en el congreso en formato PDF.</p>
+  <a class="button" href="poster.pdf" target="_blank">📄 Descargar póster (PDF)</a>
+</section>
+
+<section id="material" class="highlight">
+  <h2>Material adicional</h2>
+
+  <div class="figure">
+    <h3>Figura S1</h3>
+    <img src="figura1.jpg" alt="Figura S1. Colocación de la máscara de humedad">
+    <p>Colocación de la máscara de humedad.</p>
+    <p class="credit">Rimmer et al.</p>
+  </div>
+</section>
+
+<section id="bibliografia" class="highlight">
+  <h2>Bibliografía completa</h2>
+  <ol>
+    <li>Alansari MA, Hijazi MH, Maghrabi KA. Making a Difference in Eye Care of the Critically Ill Patients. <em>J Intensive Care Med</em>. 2015;30(6):311-317. doi:10.1177/0885066613510674.</li>
+    <li>Arevalo-Buitrago P, Collado MJB, Martínez ÁG, et al. Impact of nursing interventions on the prevention of ocular surface disorders in critical care patients: A systematic review. <em>Nurs Crit Care</em>. 2024;29(6):1758-1767. doi:10.1111/nicc.13141.</li>
+    <li>Askaryzadeh Mahani M, Nematollahi M, Bahramnezhad F, Farokhzadian J. The effect of polyethylene cover intervention on ocular surface disorder of intensive care unit patients: A systematic review and meta-analysis. <em>BMC Ophthalmol</em>. 2024;24:109. doi:10.1186/s12886-024-03360-6.</li>
+    <li>Chen Y, He J, Wu Q, Pu S, Song C. Prevalence and risk factors of exposure keratopathy among critically ill patients: A systematic review and meta-analysis. <em>Nurs Open</em>. 2024;11(1):e2061. doi:10.1002/nop2.2061.</li>
+    <li>Do Prado PR, Silveira RCCP, Vettore MV, et al. Nursing interventions to prevent corneal injury in critically ill sedated and mechanically ventilated patients: A systematic review of interventions. <em>Intensive Crit Care Nurs</em>. 2023;78:103447. doi:10.1016/j.iccn.2023.103447.</li>
+    <li>Hearne BJ, Hearne EG, Montgomery H, Lightman SL. Eye care in the intensive care unit. <em>J Intensive Care Soc</em>. 2018;19(4):345-350. doi:10.1177/1751143718764529.</li>
+    <li>Lim KW, Ha SY, Kang IS. Effectiveness of the eye care protocol in intensive care unit patients: A randomized controlled trial. <em>J Korean Acad Nurs</em>. 2024;54(3):432-445. doi:10.4040/jkan.24017.</li>
+    <li>Mobarez F, Sayadi N, Jahani S, et al. The effect of eye care protocol on the prevention of ocular surface disorders in patients admitted to intensive care unit. <em>J Med Life</em>. 2022;15(8):1000-1004. doi:10.25122/jml-2022-0139.</li>
+    <li>Ni W, Jiao X. Ocular Surface Disorders in ICU Patients: Evidence-Based Nursing Prevention Strategies. <em>Transl Vis Sci Technol</em>. 2025;14(12):21. doi:10.1167/tvst.14.12.21.</li>
+    <li>Pourghaffari Lahiji A, Gohari M, Mirzaei S, Nasiriani K. The effect of implementation of evidence-based eye care protocol for patients in the intensive care units on superficial eye disorders. <em>BMC Ophthalmol</em>. 2021;21:275. doi:10.1186/s12886-021-02034-x.</li>
+    <li>Rimmer MD, Ryan L, Bogdan L, et al. Moisture chamber for eye care after facial nerve injury. House Staff Quality Improvement and Patient Safety Conference; 2019.</li>
+    <li>Vidals-Sánchez NV, Alva-Arroyo KH, López-Rodríguez et al. Asociación de los grados de quemosis con el balance de líquidos en pacientes críticos. <em>Acta Colombiana de Cuidado Intensivo</em>. 2025. doi:10.1016/j.acci.2025.04.005.</li>
+    <li>Werli-Alvarenga A, Ercole FF, Herdman TH, Chianca TCM. Nursing interventions for adult intensive care patients with risk for corneal injury: A systematic review. <em>Int J Nurs Knowl</em>. 2013;24:25-29. doi:10.1111/j.2047-3095.2012.01218.x.</li>
+    <li>Yao L, Luo Y, Wang Y, et al. Comparative efficacy of various preventive methods for exposure keratopathy among critically ill patients: A network meta-analysis of randomized controlled trials. <em>Int J Nurs Stud</em>. 2021;118:103926. doi:10.1016/j.ijnurstu.2021.103926.</li>
+    <li>Zhou Y, Liu J, Cui Y, Zhu H, Lu Z. Moisture chamber versus lubrication for corneal protection in critically ill patients: A meta-analysis. <em>Cornea</em>. 2014;33(11):1179-1185. doi:10.1097/ICO.0000000000000224.</li>
+  </ol>
+</section>
+
+<section id="contacto" class="highlight">
+  <h2>Contacto</h2>
+  <p>Email: jgperezgon@gmail.com</p>
+  <p>ORCID: https://orcid.org/0009-0007-3910-157X</p>
+</section>
+
+<footer>
+  <p>Material suplementario del póster presentado en LI Congreso Nacional de la SEEIUC, 2026.</p>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.menu-links');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
