@@ -49,13 +49,29 @@ body {
   opacity: 0.9;
 }
 
+.meta .authors {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.meta .affiliation {
+  font-size: 0.9rem;
+}
+
+.meta .event {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
 .meta .authors,
 .meta .affiliation,
 .meta .event {
   display: block;
 }
 
-k;@media (min-width: 601px) {
+
+
+@media (min-width: 601px) {
   .meta .author {
     display: inline;
   }
@@ -71,8 +87,7 @@ k;@media (min-width: 601px) {
   .meta .event {
     margin-top: 0.3rem;
   }
-}e;
-  }
+}
   .meta .author + .author::before {
     content: " · ";
   }
@@ -223,6 +238,16 @@ h2 {
   font-style: italic;
 }
 
+.orcid-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.3rem;
+}
+
+.orcid-icon svg {
+  vertical-align: middle;
+}
+
 footer {
   background: #e8efec;
   padding: 1.5rem;
@@ -286,7 +311,7 @@ footer {
     <h3>Figura S1</h3>
     <img src="figura1.jpg" alt="Figura S1. Colocación de la máscara de humedad">
     <p>Colocación de la máscara de humedad.</p>
-    <p class="credit">Elaboración propia</p>
+    <p class="credit">Elaboración propia.</p>
   </div>
 </section>
 
@@ -313,8 +338,13 @@ footer {
 
 <section id="contacto" class="highlight">
   <h2>Contacto</h2>
-  <p>Email: jgperezgon@gmail.com</p>
-  <p>ORCID: https://orcid.org/0009-0007-3910-157X</p>
+  <p>📧 Email: <a href="mailto:jgperezgon@gmail.com">jgperezgon@gmail.com</a></p>
+  <p><span class="orcid-icon" aria-label="ORCID">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="18" height="18" role="img">
+    <circle cx="128" cy="128" r="128" fill="#0F766E"/>
+    <path d="M86.3 176.6h-16V79.4h16v97.2zm-8-108.6c-5.1 0-9.3-4.2-9.3-9.3s4.2-9.3 9.3-9.3 9.3 4.2 9.3 9.3-4.2 9.3-9.3 9.3zm92.5 108.6h-29.6c-3.1 0-5.6-2.5-5.6-5.6V85c0-3.1 2.5-5.6 5.6-5.6h29.6c28.2 0 45.2 19.5 45.2 48.6 0 29.1-17 48.6-45.2 48.6zm-6.9-83.4h-12.2v68.1h12.2c17.7 0 28.4-13.3 28.4-34.1 0-20.8-10.7-34-28.4-34z" fill="white"/>
+  </svg>
+</span> ORCID: <a href="https://orcid.org/0009-0007-3910-157X" target="_blank">https://orcid.org/0009-0007-3910-157X</a></p>
 </section>
 
 <footer>
